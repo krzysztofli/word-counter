@@ -1,0 +1,7 @@
+filename = "document.txt"
+
+with open(filename, "r") as file:
+    text = file.read()
+
+word_count = len(text.split())
+print(f"Total words: {word_count}")
